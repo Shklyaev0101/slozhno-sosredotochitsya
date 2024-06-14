@@ -71,11 +71,11 @@
 @media (min-width: 768px) {
   .decorated-zone {
     position: relative;
-    margin: 10px 10px 0px 0px;
+    margin: 10px 10px 0 0;
   }
   
   .header__decorated-element {
-    margin: 2px 10px 0px 0px;
+    margin: 2px 10px 0 0;
     inset-inline-end: 0;
     inset-block-start: 0;
   }
@@ -92,7 +92,7 @@
 
 @media (min-width: 1024px) {
   .decorated-zone {
-    margin: 10px 12px 0px 0px;
+    margin: 10px 12px 0 0;
   }
 }
 
@@ -242,7 +242,7 @@
 @media (min-width: 768px) {
   .main {
     margin: 40px 0 0;
-    padding: 0px 10px 0px 10px;
+    padding: 0 10px 0 10px;
     gap: 80px;
   }
 }
@@ -278,11 +278,8 @@
   margin: 0;
 }
 
-.section-what__title {
-  margin: 0 0 20px 0;
-}
-
 .section-what__list {
+  margin: 20px 0 0 0;
   display: grid;
   grid-template-rows: 314px 314px 384px;
   gap: 20px;
@@ -293,8 +290,8 @@
     margin: 0;
   }
 
-  .section-what__title {
-    margin: 0 532px 20px 0px;
+  .section__header-custom {
+    margin: 0 532px 20px 0;
   }
 
   .section-what__list {
@@ -304,8 +301,8 @@
 }
 
 @media (min-width: 1024px) {
-  .section-what__title {
-    margin: 0px 700px 20px 0px;
+  .section__header-custom {
+    margin: 0 700px 20px 0;
   }
 
   .section-what__list {
@@ -341,9 +338,8 @@
     margin: 0;
   }
 
-  .section-how__list-title {
+  .section-how__list {
     margin: 20px 0 0;
-    font-weight: 400;
   }
 
 /*Секция "Галерея"*/
@@ -464,7 +460,7 @@
 }
 
 /*Настройки*/
-.title-decor {
+.section__title {
   color: var(--background-color);
   background-color: var(--accent-color);
   font-size: 18px;
@@ -472,39 +468,28 @@
   font-weight: 700;
 }
 
-.title-decor-short {
+.section-how__list-title-decor {
   color: var(--background-color);
   background-color: var(--accent-color);
   font-size: 18px;
   line-height: 130%;
   font-weight: 400;
+  margin: 20px 0 0;
 }
 
-header-decor {
+.section__header {
   color: var(--accent-color-title);
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
 }
 
-.section-why__link {
-  text-decoration: underline;
-  text-underline-position: under;
-  text-shadow: 2px 2px 0 var(--accent-color);
-}
-
-@media (min-width: 768px) {
-  .section-why__link {
-    text-decoration: none;
-  }
-}
-
-.section-how__link {
+.section__link {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
-.content-text {
+.section__text {
   margin: 10px 0 0 0;
   line-height: 130%;
 }
