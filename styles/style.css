@@ -275,12 +275,13 @@
 
 /*Секция "Что..."*/
 .section-what {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .section-what__list {
   margin: 20px 0 0 0;
   display: grid;
+  justify-content: center;
   grid-template-rows: 314px 314px 384px;
   gap: 20px;
 }
